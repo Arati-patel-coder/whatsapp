@@ -1,0 +1,418 @@
+[debug] [2020-10-06T17:38:42.847Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:38:42.850Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --project whatsapp-5e10f
+[debug] [2020-10-06T17:38:42.850Z] CLI Version:   8.12.0
+[debug] [2020-10-06T17:38:42.850Z] Platform:      win32
+[debug] [2020-10-06T17:38:42.850Z] Node Version:  v11.14.0
+[debug] [2020-10-06T17:38:42.851Z] Time:          Tue Oct 06 2020 13:38:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T17:38:42.851Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:38:42.852Z] 
+[debug] [2020-10-06T17:38:42.860Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T17:38:42.860Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T17:39:07.877Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T17:39:08.247Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 17:38:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T17:39:49.192Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T17:39:49.338Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 17:33:42 GMT","expires":"Tue, 06 Oct 2020 18:23:42 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"344","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T17:39:49.452Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T17:40:53.454Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:40:53.457Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --project whatsapp-5e10f
+[debug] [2020-10-06T17:40:53.458Z] CLI Version:   8.12.0
+[debug] [2020-10-06T17:40:53.458Z] Platform:      win32
+[debug] [2020-10-06T17:40:53.458Z] Node Version:  v11.14.0
+[debug] [2020-10-06T17:40:53.459Z] Time:          Tue Oct 06 2020 13:40:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T17:40:53.460Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:40:53.460Z] 
+[debug] [2020-10-06T17:40:53.469Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T17:40:53.470Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T17:41:12.434Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T17:41:12.744Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 17:40:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T17:42:40.483Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T17:42:40.567Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 17:27:57 GMT","expires":"Tue, 06 Oct 2020 18:17:57 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"860","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T17:42:40.692Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T17:43:33.358Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:43:33.360Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --project whatsapp-5e10f
+[debug] [2020-10-06T17:43:33.361Z] CLI Version:   8.12.0
+[debug] [2020-10-06T17:43:33.361Z] Platform:      win32
+[debug] [2020-10-06T17:43:33.361Z] Node Version:  v11.14.0
+[debug] [2020-10-06T17:43:33.362Z] Time:          Tue Oct 06 2020 13:43:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T17:43:33.362Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T17:43:33.362Z] 
+[debug] [2020-10-06T17:43:33.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T17:43:33.371Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T17:44:04.668Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T17:44:04.967Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 17:43:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T17:46:48.013Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T17:46:48.117Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 17:33:42 GMT","expires":"Tue, 06 Oct 2020 18:23:42 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"763","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T17:46:48.235Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T18:00:53.994Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:00:53.996Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-06T18:00:53.997Z] CLI Version:   8.12.0
+[debug] [2020-10-06T18:00:53.997Z] Platform:      win32
+[debug] [2020-10-06T18:00:53.997Z] Node Version:  v11.14.0
+[debug] [2020-10-06T18:00:53.998Z] Time:          Tue Oct 06 2020 14:00:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T18:00:53.998Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:00:53.998Z] 
+[debug] [2020-10-06T18:00:54.007Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T18:00:54.007Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T18:01:14.250Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T18:01:14.571Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:00:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T18:02:10.006Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T18:02:10.134Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 17:33:42 GMT","expires":"Tue, 06 Oct 2020 18:23:42 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"1685","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T18:02:10.260Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T18:13:32.492Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:13:32.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-06T18:13:32.498Z] CLI Version:   8.12.0
+[debug] [2020-10-06T18:13:32.498Z] Platform:      win32
+[debug] [2020-10-06T18:13:32.498Z] Node Version:  v11.14.0
+[debug] [2020-10-06T18:13:32.500Z] Time:          Tue Oct 06 2020 14:13:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T18:13:32.500Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:13:32.500Z] 
+[debug] [2020-10-06T18:13:32.592Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T18:13:32.593Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T18:14:00.127Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T18:14:00.418Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:13:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T18:14:38.658Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T18:14:38.764Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 17:27:57 GMT","expires":"Tue, 06 Oct 2020 18:17:57 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2779","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T18:14:38.891Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T18:19:38.827Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:19:38.831Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-06T18:19:38.832Z] CLI Version:   8.12.0
+[debug] [2020-10-06T18:19:38.832Z] Platform:      win32
+[debug] [2020-10-06T18:19:38.832Z] Node Version:  v11.14.0
+[debug] [2020-10-06T18:19:38.833Z] Time:          Tue Oct 06 2020 14:19:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T18:19:38.834Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:19:38.834Z] 
+[debug] [2020-10-06T18:19:38.844Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T18:19:38.845Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T18:19:53.733Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-06T18:19:53.738Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-10-06T18:19:54.014Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:19:31 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-06T18:19:54.137Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T18:19:54.434Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:19:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T18:20:48.105Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T18:20:48.241Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 18:20:25 GMT","expires":"Tue, 06 Oct 2020 19:10:25 GMT","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"0","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T18:20:48.381Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T18:22:19.925Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:22:19.927Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-06T18:22:19.928Z] CLI Version:   8.12.0
+[debug] [2020-10-06T18:22:19.928Z] Platform:      win32
+[debug] [2020-10-06T18:22:19.928Z] Node Version:  v11.14.0
+[debug] [2020-10-06T18:22:19.929Z] Time:          Tue Oct 06 2020 14:22:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T18:22:19.929Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:22:19.930Z] 
+[debug] [2020-10-06T18:22:19.939Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T18:22:19.940Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\practice\whatsapp
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whatsapp-5e10f. 
+[debug] [2020-10-06T18:22:29.751Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T18:22:30.087Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:22:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-10-06T18:23:19.281Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-10-06T18:23:19.401Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Tue, 06 Oct 2020 18:22:56 GMT","expires":"Tue, 06 Oct 2020 19:12:56 GMT","cache-control":"public, max-age=3000","last-modified":"Mon, 05 Oct 2020 17:48:43 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-10-06T18:23:19.522Z] Error: ENOENT: no such file or directory, open 'C:\practice\whatsapp\build\index.html'
+    at Object.openSync (fs.js:448:3)
+    at Object.writeFileSync (fs.js:1210:35)
+    at Object.createFileSync (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-10-06T18:31:36.338Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:31:36.342Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ARATI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --debug
+[debug] [2020-10-06T18:31:36.343Z] CLI Version:   8.12.0
+[debug] [2020-10-06T18:31:36.343Z] Platform:      win32
+[debug] [2020-10-06T18:31:36.343Z] Node Version:  v11.14.0
+[debug] [2020-10-06T18:31:36.344Z] Time:          Tue Oct 06 2020 14:31:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-06T18:31:36.344Z] ----------------------------------------------------------------------
+[debug] [2020-10-06T18:31:36.345Z] 
+[debug] [2020-10-06T18:31:36.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-06T18:31:36.359Z] > authorizing via signed-in user
+[debug] [2020-10-06T18:31:36.360Z] [iam] checking project whatsapp-5e10f for permissions ["firebase.projects.get"]
+[debug] [2020-10-06T18:31:36.367Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-5e10f:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-10-06T18:31:36.594Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:31:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=46","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-06T18:31:36.597Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-5e10f  
+ 
+[debug] [2020-10-06T18:31:36.863Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 06 Oct 2020 18:31:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\practice\whatsapp'...
+[info] 
+[error] 
+[error] Error: Cannot understand what targets to deploy/serve. If you are using PowerShell make sure you place quotes around any comma-separated lists (ex: --only "functions,firestore").
